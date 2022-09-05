@@ -205,4 +205,12 @@
     border: none;
     border-bottom: 1px dashed black;
 }
+
+.kanan .form .input-branch{
+    width: 430px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
 /* FORM I */
