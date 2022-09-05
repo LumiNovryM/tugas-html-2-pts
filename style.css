@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER I*/
+.head-1{
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+}
+
+.head-1 nav{
+    /* background-color: aqua; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-1 nav img{
+    height: 100px;
+}
+
+.head-1 nav .title{
+    text-align: center;
+    padding-right: 200px;
+    color: rgb(228, 228, 228);
+}
+/* HEADER I*/
+
+
+
+/* HEADER II */
+.head-2 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+}
+
+.head-2 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+/* HEADER II */
+
+/* FORM I */
+
+.kiri{
+    box-sizing: border-box;
+    margin: 30px;
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+.kiri .form{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.kiri .form .input{
+    width: 500px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kiri .form .blue{
+    color: blue;
+}
+
+.kiri .kotak .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.kiri .kotak{
+    display: flex;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 70%;
+    /* background-color: aqua; */
+    /* justify-content: center; */
+}
+
+.kiri .kotak .input{
+    width: 300px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+    /* position: absolute;
+    right: 0; */
+}
+
+.kiri .kotak .blue{
+    color: blue;
+}
+
+.kiri .kotak .input-efek{
+    width: 260px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kiri .kotak .input-cos{
+    width: 320px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+    height: 20px;
+}
+
+.kiri .pilihan{
+    display: flex;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    width: 90%;
+    height: 150px;
+}
+
+.kiri .pilihan .ket{
+    font-weight: bold;
+}
+
+.kiri .pilihan .ket .blue{
+    color: blue;
+}
+
+.kiri .pilihan .pil{
+    font-weight: bold;
+}
+
+.kiri .pilihan .pil .pil-dua{
+    padding-top: 15px;
+}
+
+.kiri .pilihan .pil .pil-satu .blue{
+    color: blue;
+}
+
+.kiri .pilihan .pil .pil-dua .blue{
+    color: blue;
+}
+/* FORM I */
