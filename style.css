@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 
 /* HEADER I*/
@@ -50,9 +51,15 @@
 
 /* FORM I */
 
+.kiri-kanan{
+    display: flex;
+    padding: 20px;
+}
+
+
 .kiri{
     box-sizing: border-box;
-    margin: 30px;
+    /* margin: 30px; */
     /* background-color: aqua; */
     width: 50%;
 }
@@ -62,6 +69,7 @@
     flex-direction: column;
     font-weight: bold;
     margin-top: 30px;
+    /* background-color: aqua; */
 }
 
 .kiri .form .input{
@@ -84,7 +92,7 @@
     display: flex;
     font-weight: bold;
     margin-top: 30px;
-    width: 70%;
+    /* width: 70%; */
     /* background-color: aqua; */
     /* justify-content: center; */
 }
@@ -123,7 +131,7 @@
     display: flex;
     margin-top: 30px;
     /* background-color: aqua; */
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     width: 90%;
     height: 150px;
 }
@@ -140,8 +148,13 @@
     font-weight: bold;
 }
 
+.kiri .pilihan .pil .pil-satu,.pil-dua{
+    margin-left: 15px;
+}
+
 .kiri .pilihan .pil .pil-dua{
     padding-top: 15px;
+    /* margin-left: 15px; */
 }
 
 .kiri .pilihan .pil .pil-satu .blue{
@@ -150,5 +163,46 @@
 
 .kiri .pilihan .pil .pil-dua .blue{
     color: blue;
+}
+
+.kanan{
+    /* background-color: aqua; */
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.kanan .form{
+    display: flex;
+    /* flex-direction: column; */
+    font-weight: bold;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    /* align-items: center; */
+
+}
+
+.kanan .form .input{
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kanan .form .blue{
+    color: blue;
+}
+
+.kanan .form .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.kanan .form .input-baru{
+    width: 375px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
 }
 /* FORM I */
