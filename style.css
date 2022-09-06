@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
 }
 
 /* HEADER I*/
@@ -12,6 +11,8 @@
     background-color: #1d1d1d;
     display: flex;
     justify-content: center;
+    margin: 0 50px;
+    margin-top: 50px;
 }
 
 .head-1 nav{
@@ -41,6 +42,7 @@
     justify-content: center;
     align-items: center;
     background-color: #595959;
+    margin: 0 50px;
 }
 
 .head-2 nav .title{
@@ -54,6 +56,10 @@
 .kiri-kanan{
     display: flex;
     padding: 20px;
+    font-size: 16px;
+    margin: 0 50px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 
@@ -61,7 +67,7 @@
     box-sizing: border-box;
     /* margin: 30px; */
     /* background-color: aqua; */
-    width: 50%;
+    width: 45%;
 }
 
 .kiri .form{
@@ -166,9 +172,9 @@
 }
 
 .kanan{
-    /* background-color: aqua; */
+    /* background-color: red; */
     box-sizing: border-box;
-    width: 50%;
+    width: 55%;
 }
 
 .kanan .form{
@@ -208,6 +214,22 @@
 
 .kanan .form .input-branch{
     width: 430px;
+    height: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kanan .form .input-bank{
+    width: 450px;
+    height: 20px;
+    /* margin-left: 30px; */
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kanan .form .input-bank-dua{
+    width: 150px;
     height: 20px;
     margin-left: 30px;
     border: none;
