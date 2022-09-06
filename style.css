@@ -74,7 +74,6 @@
 .kiri{
     box-sizing: border-box;
     /* margin: 30px; */
-    /* background-color: aqua; */
     width: 45%;
 }
 
@@ -433,10 +432,151 @@
 /* HEAD C */
 
 .indi{
+    display: flex;
+    padding: 20px;
+    font-size: 16px;
     margin: 0 50px;
+    height: 200vh;
     border-left: 2px solid black;
     border-right: 2px solid black;
-    height: 100vh;
 }
 
+
+.indi .kiri{
+    box-sizing: border-box;
+    /* margin: 30px; */
+    width: 45%;
+    /* background-color: blue; */
+}
+
+.indi .kiri .senja{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 30px;
+    /* background-color: aqua; */
+}
+
+.kiri .senja .input{
+    width: 500px;
+    margin-top: 35px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.kiri .senja .blue{
+    color: blue;
+}
+
+.kiri .senja-dua{
+    display: flex;
+}
+
+.indi .kiri .kotak input{
+    width: 430px;
+}
+
+.indi .kiri .senja-dua{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.indi .kiri .senja-dua .kiri{
+    display: flex;
+    /* margin-right: 18px; */
+}
+
+.kiri .senja-dua .kiri{
+    width: 50%;
+    margin-right: 15px;
+}
+
+.kiri .senja-dua .kanan{
+    width: 50%;
+}
+
+.indi .kiri .senja-dua .kiri .input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan .count{
+    height: 20px;
+    width: 200px;
+    margin-left: 10px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan .input{
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kanan{
+    display: flex;
+}
+
+.indi .kiri .senja-dua .kanan .label{
+    display: flex;
+    flex-direction: column;
+}
+
+.indi .kiri .senja-dua .kanan .neg{
+    width: 155px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px dashed black;
+}
+
+.indi .kiri .senja-dua .kiri .tra{
+    color: rgba(0, 0, 0, 0);
+}
+
+.indi .kiri .senja-dua .kiri .blue{
+    color: blue;
+}
+
+.indi .kiri .senja-dua .kanan .blue{
+    color: blue;
+}
+
+.indi .kiri .baru{
+    display: flex;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.indi .kiri .baru .label{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.indi .kiri .baru .label .blue{
+    color: blue;
+}
+
+.indi .kiri .baru .ip-ket{
+    display: flex;
+    flex-direction: column;
+}
+
+.indi .kiri .baru .ip-ket input{
+    width: 330px;
+    border: none;
+    border-bottom: 1px dashed black;
+    margin-bottom: 5px;
+}
+
+.indi .kiri .baru .ip-ket {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.indi .kiri .baru .ip-ket .blue{
+    color: blue;
+}
 /* FORM C */
