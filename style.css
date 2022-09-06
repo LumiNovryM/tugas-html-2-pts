@@ -51,7 +51,7 @@
 }
 /* HEADER II */
 
-/* FORM I */
+/* FORM A */
 
 .kiri-kanan{
     display: flex;
@@ -61,7 +61,7 @@
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    height: 115vh;
+    height: 120vh;
 }
 
 
@@ -287,4 +287,26 @@
 .kanan .ab .bawah .btn-bawah .te{
     color: blue;
 }
-/* FORM I */
+/* FORM A */
+
+
+/* FORM B */
+
+/* HEAD B */
+
+.head-3 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+}
+
+.head-3 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+/* HEAD B */
+
+/* FORM B */
