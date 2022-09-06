@@ -6,6 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 /* HEADER I*/
 .head-1{
     background-color: #1d1d1d;
@@ -13,6 +15,9 @@
     justify-content: center;
     margin: 0 50px;
     margin-top: 50px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .head-1 nav{
@@ -43,6 +48,8 @@
     align-items: center;
     background-color: #595959;
     margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .head-2 nav .title{
@@ -58,10 +65,9 @@
     padding: 20px;
     font-size: 16px;
     margin: 0 50px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
     height: 120vh;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 
@@ -305,12 +311,15 @@
 
 /* HEAD B */
 
+
 .head-3 nav{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #595959;
     margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .head-3 nav .title{
@@ -323,8 +332,13 @@
 .pilihan-b{
     height: 40px;
     margin: 0 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-around;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    font-weight: bold;
 }
 
 .pilihan-b .giro{
@@ -333,6 +347,10 @@
     width: 30%;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.pilihan-b .blue{
+    color: blue;
 }
 
 .pilihan-b .giro input[type="checkbox"]{
@@ -393,3 +411,32 @@
     height: 25px;
 }
 /* FORM B */
+
+/* FORM C */
+
+/* HEAD C */
+.head-4 nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #595959;
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.head-4 nav .title{
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+
+/* HEAD C */
+
+.indi{
+    margin: 0 50px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    height: 100vh;
+}
+
+/* FORM C */
